@@ -3,7 +3,6 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Exam-FE-blue.svg" alt="Exam FE">
   <img src="https://img.shields.io/badge/Language-Chinese%20%26%20Japanese-orange.svg" alt="Language">
-  <img src="https://img.shields.io/badge/Style-Premium%20GitHub-green.svg" alt="Style">
 </p>
 
 <p align="center">
