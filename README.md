@@ -21,10 +21,12 @@
 | [第四章](04_FE-DataBase/Database.md) | **数据库核心概念** (データベース) | ✅ 已完成 |
 | [第五章](05_FE-Network/Network.md)  | **计算机网络** (ネットワーク) | ✅ 已完成 |
 | [第六章](06_FE-Security/Security.md)| **信息安全** (セキュリティ) | ✅ 已完成 |
-| **第七章** | **后续待更新章节** | ⏳ 待处理 |
+| [第七章](07_FE-Algorithm/Algorithm.md) | **算法与编程核心** (アルゴリズムとプログラミング) | ✅ 已完成 |
+| **后续章节** | **系统开发与经营管理等** | ⏳ 待更新 |
 
 ---
 
 <p align="center">
-  <i>"知识的深度决定了思考的高度。"</i><br>
+  <em>"知识的深度决定了思考的高度，连接的广度构筑了世界的深度。"</em><br>
+  <strong>The depth of knowledge determines the height of thought.</strong>
 </p>
