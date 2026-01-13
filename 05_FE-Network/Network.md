@@ -460,5 +460,6 @@ OSI 模型将复杂的网络通信功能划分为 **七个独立的层次** (`�
 ---
 
 <p align="center">
-  <i>"网络是连接世界的桥梁，协议是通信的语言。"</i><br>
+  <em>"信号织就时空的经纬，连接构筑世界的共鸣。"</em><br>
+  <strong>Signals weave the warp and weft of space-time; connection builds the resonance of the world.</strong>
 </p>
