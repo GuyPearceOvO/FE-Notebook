@@ -22,6 +22,7 @@
 | [第五章](05_FE-Network/Network.md)  | **计算机网络** (ネットワーク) | ✅ 已完成 |
 | [第六章](06_FE-Security/Security.md)| **信息安全** (セキュリティ) | ✅ 已完成 |
 | [第七章](07_FE-Algorithm/Algorithm.md) | **算法与编程核心** (アルゴリズムとプログラミング) | ✅ 已完成 |
+| [第八章](08_FE-SystemStructure/SystemStructure.md) | **系统构成要素** (システム構成要素) | ✅ 已完成 |
 | **后续章节** | **系统开发与经营管理等** | ⏳ 待更新 |
 
 ---
