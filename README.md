@@ -23,7 +23,10 @@
 | [第六章](06_FE-Security/Security.md)| **信息安全** (セキュリティ) | ✅ 已完成 |
 | [第七章](07_FE-Algorithm/Algorithm.md) | **算法与编程核心** (アルゴリズムとプログラミング) | ✅ 已完成 |
 | [第八章](08_FE-SystemStructure/SystemStructure.md) | **系统构成要素** (システム構成要素) | ✅ 已完成 |
-| **后续章节** | **系统开发与经营管理等** | ⏳ 待更新 |
+| [第九章](09_FE-SoftwareDevelopment/SoftwareDevelopment.md) | **软件开发管理** (ソフトウェア開発管理) | ✅ 已完成 |
+| [第十章](10_FE-ProjectManagement/ProjectManagement.md) | **项目管理与工程** (プロジェクトマネジメント) | ✅ 已完成 |
+| [第十一章](11_FE-Strategic/Strategic.md) | **经营战略与商业模式** (経営戦略とビジネスモデル) | ✅ 已完成 |
+| **全卷完结** | **系统开发与经营管理等** | ✅ 已完成 |
 
 ---
 
