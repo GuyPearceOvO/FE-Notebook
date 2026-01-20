@@ -7,10 +7,6 @@
 
 ---
 
-本指南基于系统构成要素的核心知识点进行深度解析，旨在帮助备考 **基础情报考试（基本情報技術者試験）** 的同学全面掌握系统架构、性能评估及可靠性设计等关键内容。
-
----
-
 ## 1. 🧩 系统处理与构成 (System Processing & Structure)
 
 ### 1.1 系统的分类 (System Classification)
@@ -26,6 +22,8 @@
 
 </div>
 
+<p align="center"><img src="Image/Processing.png" alt="Processing" width="800"></p>
+
 ### 1.2 系统的处理形态 (Processing Types)
 
 * **集中处理 (集中処理)**：
@@ -35,17 +33,14 @@
   * 任务分布在多台系统上。
   * ✅ **优点**：单机负载低，局部故障不影响全局。
 
+<p align="center"><img src="Image/ProcessingTypes.png" alt="ProcessingTypes" width="800"></p>
+
 ### 1.3 客户端-服务器系统 (Client-Server System)
 
 * **客户端 (クライアント)**：发出服务请求的一端（如我们的PC、手机）。
 * **服务器 (サーバー)**：提供服务的一端（高性能计算机）。
 
-> [!NOTE]
-> **Web访问流程**：
->
-> 1. **请求 (リクエスト/Request)**：浏览器向服务器发送“想看某网页”的指令。
-> 2. **响应 (レスポンス/Response)**：服务器返回HTML/CSS等文件。
-> 3. **渲染 (Rendering)**：浏览器解析这些代码并展示出网页。
+<p align="center"><img src="Image/ClientServer.png" alt="ClientServer" width="800"></p>
 
 ### 1.4 三层架构与瘦客户机 (3-Tier & Thin Client)
 
@@ -59,6 +54,8 @@
   * 所有数据和处理都在服务器端完成，极大提高了 **安全性 (セキュリティ)**。
   * **VDI (仮想デスクトップ基盤)**：在公司服务器上构建虚拟桌面。
   * **DaaS (Desktop as a Service)**：利用云端提供的虚拟桌面服务。
+
+<p align="center"><img src="Image/ThinClient.png" alt="ThinClient" width="800"></p>
 
 ---
 
@@ -88,6 +85,8 @@
 
 </div>
 
+<p align="center"><img src="Image/DataBackup.png" alt="DataBackup" width="800"></p>
+
 ### 2.3 浴缸曲线 (Bathtub Curve / バスタブ曲線)
 
 描述硬件故障率随时间变化的曲线：
@@ -107,13 +106,15 @@
 * **响应时间 (Response Time / レスポンスタイム)**：服务器处理请求并返回的时间（不含用户端操作，常用于 **实时处理**）。
 * **基准测试 (Benchmark / ベンチマークテスト)**：使用专用程序运行系统，评估其相对性能。
 
+<p align="center"><img src="Image/Performance.png" alt="Performance" width="800"></p>
+
 ### 3.2 RASIS 评估指标
 
-1. **Reliability (可靠性/信頼性)**：故障发生的频率。指标：`MTBF`。
-2. **Availability (可用性/可用性)**：系统随时可用的程度。指标：`稼働率`。
-3. **Serviceability (维修性/保守性)**：故障后修复的快慢。指标：`MTTR`。
-4. **Integrity (完整性/保全性)**：数据不缺失、不损坏。
-5. **Security (安全性/安全性)**：防御非法访问的能力。
+1. **Reliability (可靠性/信頼性)**：故障发生的频率，坏的少吗？指标：`MTBF`。
+2. **Availability (可用性/可用性)**：系统随时可用的程度，随时能用吗？指标：`稼働率`。
+3. **Serviceability (维修性/保守性)**：故障后修复的快慢，坏了修的快吗？指标：`MTTR`。
+4. **Integrity (完整性/保全性)**：数据不缺失、不损坏，数据精准吗？
+5. **Security (安全性/安全性)**：防御非法访问的能力，数据安全吗？
 
 ### 3.3 可靠性计算公式 (Calculations)
 
@@ -127,6 +128,8 @@
 * **可用率 (Availability / 稼働率)**：
     $$ A = \frac{\text{MTBF}}{\text{MTBF} + \text{MTTR}} $$
 
+<p align="center"><img src="Image/Availability.png" alt="Availability" width="800"></p>
+
 ### 3.4 串并联系统的稼働率
 
 * **直连 (Series System / 直列システム)**：所有设备都必须正常工作。
@@ -134,14 +137,14 @@
 * **并联 (Parallel System / 並列システム)**：只要有一台正常工作即可。
     $$ A_{\text{total}} = 1 - (1 - A) \times (1 - B) $$
 
+<p align="center"><img src="Image/Series&Parallel.png" alt="Series&Parallel" width="800"></p>
+
 ---
 
-## 4. 💡 深度解析：可靠性设计 (Reliability Design Logic)
-
-为了让初学者更直观地理解这些抽象的理念，我们可以用生活中的生动场景来比喻：
+## 4. 💡 可靠性设计 (Reliability Design Logic)
 
 ### 4.1 容错 (Fault Tolerance / フォルトトレランス)
->
+
 > **“我有备胎，我怕谁？”**
 
 * **核心逻辑**：承认“系统一定会坏”，所以通过 **冗余（多准备一份）** 来抵御故障。
@@ -193,35 +196,6 @@
 | **防呆** | フールプルーフ | Foolproof |
 
 </div>
-
----
-
-## 6. 📝 随堂小测 (Quiz)
-
-**Q1: 在三层架构中，客户端（瘦客户机）主要承担哪一层的功能？**
-
-* A. 应用层
-* B. 数据库层
-* C. 表现层
-* D. 所有层
-
-**Q2: 某系统运行了500小时，期间发生了2次故障，修复这两次故障分别用了4小时和6小时。求该系统的MTBF和MTTR。**
-
-**Q3: 什么是“双机并行系统（Dual System）”？**
-
-* A. 一台工作，一台冷备用。
-* B. 两台系统同时处理，相互照应并比对结果。
-* C. 一台处理业务，一台处理备份。
-* D. 故障时需要重启的系统。
-
-<details>
-<summary><strong>🔍 点击查看答案解析 (Answer Key)</strong></summary>
-
-1. **C**（瘦客户机主要负责画面的输入和表示，即表现层）。
-2. **MTBF = 250小时** (500 ÷ 2)； **MTTR = 5小时** ((4+6) ÷ 2)。
-3. **B**（双机并行系统的特点是同步处理且结果比对，安全性极高）。
-
-</details>
 
 ---
 
