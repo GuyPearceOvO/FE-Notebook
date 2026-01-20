@@ -15,18 +15,17 @@
 
 | 章节 | 内容模块 | 状态 |
 | :--- | :--- | :---: |
-| [第一章](01_FE-Binary_Logic/Binary%20Logic.md) | **二进制与逻辑运算** (2进数と论理演算) | ✅ 已完成 |
+| [第一章](01_FE-BinaryLogic/BinaryLogic.md) | **二进制与逻辑运算** (2进数と论理演算) | ✅ 已完成 |
 | [第二章](02_FE-Hardware/Harware.md) | **计算机硬件核心** (コンピュータハードウェア) | ✅ 已完成 |
 | [第三章](03_FE-Software/OS.md) | **操作系统 (OS)** (オペレーティングシステム) | ✅ 已完成 |
 | [第四章](04_FE-DataBase/Database.md) | **数据库核心概念** (データベース) | ✅ 已完成 |
 | [第五章](05_FE-Network/Network.md)  | **计算机网络** (ネットワーク) | ✅ 已完成 |
 | [第六章](06_FE-Security/Security.md)| **信息安全** (セキュリティ) | ✅ 已完成 |
 | [第七章](07_FE-Algorithm/Algorithm.md) | **算法与编程核心** (アルゴリズムとプログラミング) | ✅ 已完成 |
-| [第八章](08_FE-SystemStructure/SystemStructure.md) | **系统构成要素** (システム構成要素) | ✅ 已完成 |
+| [第八章](08_FE-SystemArchitecture/SystemArchitecture.md) | **系统构成要素** (システム構成要素) | ✅ 已完成 |
 | [第九章](09_FE-SoftwareDevelopment/SoftwareDevelopment.md) | **软件开发管理** (ソフトウェア開発管理) | ✅ 已完成 |
 | [第十章](10_FE-ProjectManagement/ProjectManagement.md) | **项目管理与工程** (プロジェクトマネジメント) | ✅ 已完成 |
 | [第十一章](11_FE-Strategic/Strategic.md) | **经营战略与商业模式** (経営戦略とビジネスモデル) | ✅ 已完成 |
-| **全卷完结** | **系统开发与经营管理等** | ✅ 已完成 |
 
 ---
 
