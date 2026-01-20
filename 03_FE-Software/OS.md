@@ -224,6 +224,29 @@
 
 ---
 
+## 📚 备考核心词汇表 (Glossary)
+
+<div align="center">
+
+| 中文词汇 | 假名标注 | 英文参考 |
+| :--- | :--- | :--- |
+| **操作系统** | オペレーティングシステム | Operating System (OS) |
+| **内核** | カーネル | Kernel |
+| **中间件** | ミドルウェア | Middleware |
+| **吞吐量** | スループット | Throughput |
+| **假脱机** | スプーリング | Spooling |
+| **任务** | タスク | Task |
+| **排队** | キュー | Queue |
+| **虚拟内存** | 仮想記憶（かそうきおく） | Virtual Memory |
+| **分页** | ページング | Paging |
+| **系统颠簸** | スラッシング | Thrashing |
+| **内存泄漏** | メモリリーク | Memory Leak |
+| **压缩** | 圧縮（あっしゅく） | Compression |
+
+</div>
+
+---
+
 <p align="center">
   <em>"统领虚实交错之境，调度秩序井然之魂。"</em><br>
   <strong>Command the realm of interwoven reality; schedule the soul of orderly precision.</strong>

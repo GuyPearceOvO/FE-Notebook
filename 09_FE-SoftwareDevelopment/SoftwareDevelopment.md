@@ -212,6 +212,29 @@ EA 是从宏观视角实现企业的 **全体最优 (Overall Optimization / 全�
 
 ---
 
+## 📚 备考核心词汇表 (Glossary)
+
+<div align="center">
+
+| 中文词汇 | 假名标注 | 英文参考 |
+| :--- | :--- | :--- |
+| **共通框架** | 共通（きょうつう）フレーム | Common Frame |
+| **需求定义** | 要件定義（ようけんていぎ） | Requirements Definition |
+| **非功能需求** | 非機能要件（ひきのうようけん） | Non-Functional Requirement |
+| **瀑布模型** | ウォーターフォールモデル | Waterfall Model |
+| **敏捷开发** | アジャイル | Agile |
+| **重构** | リファクタリング | Refactoring |
+| **黑盒测试** | ブラックボックステスト | Black Box Test |
+| **白盒测试** | ホワイトボックステスト | White Box Test |
+| **回归测试** | 回帰（かいき）テスト | Regression Test |
+| **验收测试** | 受入（うけいれ）テスト | Acceptance Test |
+| **耦合度** | 結合度（けつごうど） | Coupling |
+| **内聚度** | 強度（きょうど） | Cohesion |
+
+</div>
+
+---
+
 <p align="center">
   <em>"代码编织逻辑的经纬，流程构建系统的脊梁。"</em><br>
   <strong>Code weaves the fabric of logic; Process builds the backbone of the system.</strong>

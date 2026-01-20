@@ -173,7 +173,7 @@
 
 ---
 
-## 5. 📚 术语表 (Glossary)
+## 📚 术语表 (Glossary)
 
 <div align="center">
 

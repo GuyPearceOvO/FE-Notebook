@@ -188,6 +188,28 @@ PMBOK 第 6 版将项目管理细化为 **5 大流程 (Process)** 与 **10 大�
 
 ---
 
+## 📚 备考核心词汇表 (Glossary)
+
+<div align="center">
+
+| 中文词汇 | 假名标注 | 英文参考 |
+| :--- | :--- | :--- |
+| **项目管理** | プロジェクトマネジメント | Project Management |
+| **可行性研究** | フィジビリティスタディ | Feasibility Study |
+| **工作分解结构** | WBS（ダブリュービーエス） | Work Breakdown Structure |
+| **关键路径** | クリティカルパス | Critical Path |
+| **甘特图** | ガントチャート | Gantt Chart |
+| **挣值管理** | EVM / アーンドバリューマネジメント | Earned Value Management |
+| **功能点法** | ファンクションポイント法 | Function Point Method |
+| **人月** | 人月（にんげつ） | Man-Month |
+| **服务等级协议** | SLA（エスエルエー） | Service Level Agreement |
+| **系统审计** | システム監査（かんさ） | System Audit |
+| **内部统制** | 内部統制（ないぶとうせい） | Internal Control |
+
+</div>
+
+---
+
 <p align="center">
   <em>"由数据掌舵项目之舟，以逻辑构建信任之锚。"</em><br>
   <strong>Steer the ship of projects with data; build the anchor of trust with logic.</strong>

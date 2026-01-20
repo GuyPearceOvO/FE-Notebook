@@ -242,6 +242,33 @@
 
 ---
 
+## 📚 备考核心词汇表 (Glossary)
+
+<div align="center">
+
+| 中文词汇 | 假名标注 | 英文参考 |
+| :--- | :--- | :--- |
+| **算法** | アルゴリズム | Algorithm |
+| **流程图** | フローチャート | Flowchart |
+| **数据结构** | データ構造（こうぞう） | Data Structure |
+| **数组** | 配列（はいれつ） | Array |
+| **列表** | リスト | List |
+| **队列** | キュー | Queue |
+| **栈** | スタック | Stack |
+| **二分搜索** | 二分探索法（にぶんたんさくほう） | Binary Search |
+| **快排** | クイックソート | Quick Sort |
+| **递归** | 再帰（さいき） | Recursion |
+| **面向对象** | オブジェクト指向（しこう） | Object-Oriented |
+| **类** | クラス | Class |
+| **实例** | インスタンス | Instance |
+| **继承** | 継承（けいしょう） | Inheritance |
+| **封装** | カプセル化（か） | Encapsulation |
+| **多态** | 多様性（たようせい） / ポリモーフィズム | Polymorphism |
+
+</div>
+
+---
+
 <p align="center">
   <em>"于算法中寻找逻辑之美，在代码里构建秩序之光。"</em><br>
   <strong>Find the beauty of logic in algorithms; build the light of order in code.</strong>

@@ -322,6 +322,29 @@ RDB 的基本构成元素非常简单，就像我们常用的电子表格一样�
 
 ---
 
+## 📚 备考核心词汇表 (Glossary)
+
+<div align="center">
+
+| 中文词汇 | 假名标注 | 英文参考 |
+| :--- | :--- | :--- |
+| **数据库管理系统** | DBMS | Database Management System |
+| **关系型数据库** | 関係（かんけい）データベース | Relational Database (RDB) |
+| **主键** | 主（しゅ）キー | Primary Key |
+| **外键** | 外部（がいぶ）キー | Foreign Key |
+| **规范化** | 正規化（せいきか） | Normalization |
+| **冗余** | 重複（ちょうふく） / 冗長性（じょうちょうせい） | Redundancy |
+| **事务** | トランザクション | Transaction |
+| **原子性** | 原子性（げんしせい） | Atomicity |
+| **排他锁** | 占有（せんゆう）ロック | Exclusive Lock |
+| **死锁** | デッドロック | Deadlock |
+| **回滚** | ロールバック | Rollback |
+| **数据定义语言** | DDL | Data Definition Language |
+
+</div>
+
+---
+
 <p align="center">
   <em>"聚零散数据为智慧之海，存永恒信息于方寸之间。"</em><br>
   <strong>Gather scattered data into a sea of wisdom; store eternal information within minute spaces.</strong>

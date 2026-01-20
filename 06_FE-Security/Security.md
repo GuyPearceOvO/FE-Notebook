@@ -456,6 +456,30 @@ JIS Q 27000系列标准定义了信息安全的核心要素，最初为三大要
 
 ---
 
+## 📚 备考核心词汇表 (Glossary)
+
+<div align="center">
+
+| 中文词汇 | 假名标注 | 英文参考 |
+| :--- | :--- | :--- |
+| **脆弱性** | 脆弱性（ぜいじゃくせい） | Vulnerability |
+| **威胁** | 脅威（きょうい） | Threat |
+| **社交工程** | ソーシャルエンジニアリング | Social Engineering |
+| **机密性** | 機密性（きみつせい） | Confidentiality |
+| **完整性** | 完全性（かんぜんせい） | Integrity |
+| **可用性** | 可用性（かようせい） | Availability |
+| **恶意软件** | マルウェア | Malware |
+| **加密** | 暗号化（あんごうか） | Encryption |
+| **数字签名** | デジタル署名（しょめい） | Digital Signature |
+| **公钥基础设施** | PKI（ピーケーアイ） | Public Key Infrastructure |
+| **防火墙** | ファイアウォール | Firewall |
+| **网络钓鱼** | フィッシング | Phishing |
+| **渗透测试** | ペネトレーションテスト | Penetration Test |
+
+</div>
+
+---
+
 <p align="center">
   <em>"安全不是产品，而是一个持续的过程。"</em><br>
   <strong>Security is not a product, but a process.</strong>

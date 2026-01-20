@@ -459,6 +459,29 @@ OSI 模型将复杂的网络通信功能划分为 **七个独立的层次** (`�
 
 ---
 
+## 📚 备考核心词汇表 (Glossary)
+
+<div align="center">
+
+| 中文词汇 | 假名标注 | 英文参考 |
+| :--- | :--- | :--- |
+| **协议** | プロトコル | Protocol |
+| **局域网** | ローカルエリアネットワーク | Local Area Network (LAN) |
+| **广域网** | ワイドエリアネットワーク | Wide Area Network (WAN) |
+| **OSI参考模型** | OSI（オーエスアイ）参照（さんしょう）モデル | OSI Reference Model |
+| **IP地址** | IP（アイピー）アドレス | IP Address |
+| **子网掩码** | サブネットマスク | Subnet Mask |
+| **MAC地址** | MAC（マック）アドレス | MAC Address |
+| **路由器** | ルータ | Router |
+| **交换机** | スイッチングハブ | Switching Hub (Switch) |
+| **网关** | ゲートウェイ | Gateway |
+| **域名系统** | DNS（ディーエヌエス） | Domain Name System |
+| **地址转换** | NAT（ナット）/ NAPT（ナプト） | Network Address Translation |
+
+</div>
+
+---
+
 <p align="center">
   <em>"信号织就时空的经纬，连接构筑世界的共鸣。"</em><br>
   <strong>Signals weave the warp and weft of space-time; connection builds the resonance of the world.</strong>

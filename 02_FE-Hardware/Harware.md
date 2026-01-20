@@ -222,6 +222,28 @@
 
 ---
 
+## 📚 备考核心词汇表 (Glossary)
+
+<div align="center">
+
+| 中文词汇 | 假名标注 | 英文参考 |
+| :--- | :--- | :--- |
+| **硬件** | ハードウェア | Hardware |
+| **软件** | ソフトウェア | Software |
+| **中央处理器** | CPU（シーピーユー） | Central Processing Unit |
+| **寄存器** | レジスタ | Register |
+| **时钟频率** | クロック周波数（しゅうはすう） | Clock Frequency |
+| **流水线** | パイプライン | Pipeline |
+| **主存储器** | 主記憶装置（しゅきおくそうち） | Main Memory |
+| **缓存** | キャッシュメモリ | Cache Memory |
+| **接口** | インターフェース | Interface |
+| **分辨率** | 解像度（かいぞうど） | Resolution |
+| **热插拔** | ホットプラグ | Hot Plug |
+
+</div>
+
+---
+
 <p align="center">
   <em>"硅片承载思维的律动，电流奔涌智慧的潮汐。"</em><br>
   <strong>Silicon carries the rhythm of thought; current surges the tide of wisdom.</strong>
