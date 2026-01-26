@@ -7,10 +7,6 @@
 
 ---
 
-你好！我是你的金牌教练。在准备日本基本情报技术者考试（FE）时，软件工程部分不仅是上午题（科目A）的高频考点，其逻辑性也是理解下午题（科目B）中算法的基础。本指南将基于官方的“共通框架（共通フレーム/きょうつうふれーむ）”，带你深度解析系统开发的每一个核心环节。
-
----
-
 ## 1. 🌊 系统开发流程全景图 (System Development Flow)
 
 在IT工程中，为了避免用户企业（User Enterprise）与开发商（Vendor）之间产生误解，业界定义了 **共通框架 (Common Frame / 共通フレーム)**。它就像一把“共同标尺”，通过标准化语言确保双方在开发内容与责任范围上达成共识。
@@ -48,9 +44,6 @@
 2. **RFP (Request For Proposal / 提案依頼書)**：
     * **提案请求**。用户企业提供具体需求，供应商给出针对性的设计方案与报价，用于最终选拔。
 
-> [!IMPORTANT]
-> **顺序记忆**：先 RFI (Information - 问信息) 后 RFP (Proposal - 要方案)。
-
 ### 2.2 评审 (Review / レビュー)
 
 在设计阶段，为了 **早期发现错误**（Early Detection），必须进行评审：
@@ -68,16 +61,7 @@
 
 ## 3. 🛠️ 四大主流开发模式深度对比 (Development Models)
 
-<div align="center">
-
-| 手法名称 | 核心特征 | ✅ 优点 | ⚠️ 缺点 | 适用场景 |
-| :--- | :--- | :--- | :--- | :--- |
-| **瀑布模型**<br>(Waterfall)<br>ウォーターフォール | **线性推进**，不可逆。<br>前一阶段完工才进下一阶。 | 计划明确，进度易于管理。 | 难以中途变更；<br>用户后期才见到实物，返工风险大。 | 大规模、需求明确的传统系统。 |
-| **敏捷开发**<br>(Agile)<br>アジャイル | **短周期迭代**<br>(Iteration / イテレーション)。 | 快速响应需求变更。 | 全局进度难把握，方向易偏移。 | 中小规模、需求不明确的项目。 |
-| **原型模型**<br>(Prototyping)<br>プロトタイピング | 先做 **试作品**<br>(Prototype / プロトタイプ)。 | 减少认知偏差，降低风险。 | 试作品成本高，可能导致反复修改。 | UI/UX要求高的项目。 |
-| **逆向工程**<br>(Reverse Eng.)<br>リバースエンジニアリング | 从 **代码逆向还原** 设计书。 | 节省分析老旧系统的成本。 | **注意**：存在侵犯 **著作权** 或 **专利权** 的风险。 | 系统重构、旧件分析。 |
-
-</div>
+<p align="center"><img src="Image/DevelopmentModels.png" alt="DevelopmentModels" width="800"></p>
 
 ---
 
@@ -95,12 +79,16 @@
     * **“测试先行”** 逻辑。
     * 流程：`先写测试代码` -> `写出代码通过测试` -> `Refactoring`。
 
+<p align="center"><img src="Image/XP.png" alt="XP" width="400"></p>
+
 ### 4.2 Scrum (スクラム)
 
 侧重 **团队管理**：
 
 * **冲刺 (Sprint / スプリント)**：2-4周的固定开发循环。
 * **每日站会 (Daily Scrum / デイリースクラム)**：每天约15分钟同步进度。
+
+<p align="center"><img src="Image/Scrum.png" alt="Scrum" width="400"></p>
 
 ---
 
@@ -112,11 +100,13 @@
   * 包含：**实体** (Entity/実体) & **关联** (Relationship/リレーションシップ)。
   * **关系逻辑**：1对1、1对多。
   * *注意*：箭头方向通常表示“1”的一侧。（如：`Employee` -> `Company` 表示多名员工属于一家公司）。
+  <p align="center"><img src="Image/ER.png" alt="ER" width="600"></p>
+
 * **DFD (Data Flow Diagram / データフロー図)**：
   * ➡️ **箭头**：数据流 (Data Flow)
   * ⭕ **圆圈**：处理过程 (Process)
-  * ═ **双横线**：数据存储 (Data Store)
   * ⬜ **矩形**：源点/终点 (Source/Sink)
+  <p align="center"><img src="Image/DFD.png" alt="DFD" width="600"></p>
 
 ### 5.2 UI/接口设计
 
@@ -131,6 +121,12 @@
 
 ## 6. 🧩 模块划分与独立性评价 (Module Design)
 
+### 6.1 模块化 (Modularization)
+
+**模块化 (Modularization / モジュール化)** 是将庞大复杂的系统分解为若干个 **独立** 且 **功能单一** 的部件（模块）的过程。
+
+### 6.2 模块独立性评价 (Independence Evaluation)
+
 如何评价程序内部拆分（模块化）的好坏？
 
 **目标：高强度、低耦合 (High Cohesion, Low Coupling)**
@@ -142,7 +138,7 @@
     * 定义：模块内部的功能集中度。**越强（高）越好**。
     * 🏆 **最佳**：**功能性强度 (Functional Cohesion / 機能的強度)** —— 一模块仅负责单一特定功能。
 
----
+  <p align="center"><img src="Image/IndependenceEvaluation.png" alt="IndependenceEvaluation" width="800"></p>
 
 ## 7. 🧪 V字模型与测试体系 (V-Model & Testing)
 
@@ -161,8 +157,7 @@
 
 </div>
 
-> [!WARNING]
-> **映射说明**：不同教材可能将“详细设计”映射到“结合测试”，考试时请灵活应对。
+  <p align="center"><img src="Image/V-Model.png" alt="V-Model" width="500"></p>
 
 ### 7.2 测试核心技术
 
@@ -171,10 +166,16 @@
   * **边界值分析**：测试临界值（如 <, <=, >, >= 的边界）。
 * **白盒测试 (White Box Test / ホワイトボックステスト)**：看内部代码结构。
   * **覆盖标准**：命令覆盖 < 分支覆盖 < 条件覆盖 < 多重条件覆盖 (最高)。
+
+  <p align="center"><img src="Image/Black&WhiteBoxTest.png" alt="WhiteBoxTest" width="600"></p>
+
 * **测试工具**：
   * 🔼 **驱动程序 (Driver)**：自下而上测试时，模拟“上级”调用者。
   * 🔽 **桩 (Stub)**：自上而下测试时，模拟“下级”被调模块。
-* **回归测试 (Regression Test / 回帰テスト)**：修改Bug后重新测试，防止“改一处坏十处”。
+
+  <p align="center"><img src="Image/Driver&Stub.png" alt="Driver&Stub" width="600"></p>
+  
+* **回归测试 (Regression Test / 回帰テスト)**：确保新功能没有破坏旧功能。
 
 ### 7.3 可靠性增长曲线 (Reliability Growth Curve)
 
@@ -182,7 +183,8 @@
     1. **初期**：Bug发现慢。
     2. **中期**：Bug大量涌现，曲线陡峭。
     3. **后期**：系统趋稳，曲线平缓。
-* **指标**：累计Bug数、未解决Bug数。
+
+  <p align="center"><img src="Image/ReliabilityGrowthCurve.png" alt="ReliabilityGrowthCurve" width="400"></p>
 
 ---
 
@@ -194,21 +196,6 @@ EA 是从宏观视角实现企业的 **全体最优 (Overall Optimization / 全�
 2. **Data (数据架构)**：定义数据间的关联性 (E-R图等)。
 3. **Application (应用架构)**：定义软件系统功能。
 4. **Technology (技术架构)**：定义服务器、网络等硬件基础设施。
-
----
-
-## 9. 🎓 考试通关：金牌教练复盘 (Coach's Recap)
-
-> [!TIP]
-> **必考避坑指南**
-
-1. **模块设计**：追求 **数据结合 (Data Coupling)** [低耦合] + **功能强度 (Functional Strength)** [高内聚]。
-2. **RFI vs RFP**：先 RFI (问情况) -> 后 RFP (要方案)。
-3. **TDD (测试驱动)**：是 **“测试先行”** (Test First)，不是写完代码再测。
-4. **Driver vs Stub**：
-    * **Driver (驱动)**：在 **上** (模拟主程序调子程序)。
-    * **Stub (桩)**：在 **下** (模拟子程序被调)。
-5. **逆向工程**：通过代码还原设计，需警惕 **专利 (Patent/特許)** 与 **著作权 (Copyright/著作権)** 风险。
 
 ---
 
@@ -230,6 +217,7 @@ EA 是从宏观视角实现企业的 **全体最优 (Overall Optimization / 全�
 | **验收测试** | 受入（うけいれ）テスト | Acceptance Test |
 | **耦合度** | 結合度（けつごうど） | Coupling |
 | **内聚度** | 強度（きょうど） | Cohesion |
+| **模块化** | モジュール化 | Modularization |
 
 </div>
 
